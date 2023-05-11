@@ -2,7 +2,13 @@
 {
 	font-family: 'IntroDemo'; 
 	src: local('IntroDemo'),
-		url(fonts/IntroDemo-BlackCAPS.otf); 
+		url(fonts/IntroDemo-BlackCAPS.otf);	
+}
+@font-face 
+{
+	font-family: 'Comfortaa'; 
+	src: local('Comfortaa'),
+		url(fonts/Comfortaa-Bold.ttf);	
 }
 
 body
@@ -22,6 +28,14 @@ body
     position: relative;
     text-align: center;
     color: white;
+}
+
+.info-block
+{
+	height: auto;
+	text-align: center;
+	font-family: 'Comfortaa';
+	font-size: 9px;
 }
 
 .main-title-text 
@@ -44,9 +58,31 @@ body
 	font-size: 30px;
 }
 
-.info-block
+.info-block-text2
 {
 	height: auto;
 	text-align: center;
-	font-size: 20px;
+	font-family: 'Comfortaa';
+    font-size: 40px;
+}
+
+.background1
+{
+	width: 50%;
+	display: block;
+    margin-right: auto;
+}
+
+.image-with-text 
+{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    font-size: 18px;
+    font-family: 'Comfortaa';
+}
+    
+.image-with-text img
+{
+  	margin-right: 30px;    
 }
