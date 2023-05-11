@@ -46,6 +46,7 @@ body
 
 .info-block
 {
+	height: auto;
 	text-align: center;
 	font-size: 20px;
 }
