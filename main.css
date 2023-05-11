@@ -2,7 +2,7 @@
 {
 	font-family: 'IntroDemo'; 
 	src: local('IntroDemo'),
-		url(fonts/IntroDemo-BlackInlineCAPS.otf); 
+		url(fonts/IntroDemo-BlackCAPS.otf); 
 }
 
 body
